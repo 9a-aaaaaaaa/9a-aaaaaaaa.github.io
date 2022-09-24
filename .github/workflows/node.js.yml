@@ -13,10 +13,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: 切换仓库
-        uses: actions/checkout@v3
-
-      - name: nodejs 设置 
+      - uses: actions/checkout@v3
+      - name: node环境
         uses: actions/setup-node@v3
         with:
             node-version: 16
