@@ -37,6 +37,6 @@ jobs:
         # A path of submodule directory
         submodulePath: blog
         # A identifier secret key to used checkout the submodule
-        identifierFile: ${{secret.token}} 
+        identifierFile: ${{secrets.TOKEN}} 
         
 
