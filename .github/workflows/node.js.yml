@@ -11,24 +11,22 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: [18.x]
-        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
-
     steps:
-    - uses: actions/checkout@v3
-    - uses: actions/setup-node@v3
-      with:
-          node-version: 16
-    - name: Use Node.js 
-    - run: |  
-        node -v
-        ls -la
-        npm install
-        chmod +x ./gen.mjs 
-        ./gen.mjs 
+      - name: 切换仓库
+        uses: actions/checkout@v3
+
+      - name: nodejs 设置 
+        uses: actions/setup-node@v3
+        with:
+            node-version: 16
+
+      - name: 开始执行脚本
+      - run: |  
+          node -v
+          ls -la
+          npm install
+          chmod +x ./gen.mjs 
+          ./gen.mjs 
         
 
