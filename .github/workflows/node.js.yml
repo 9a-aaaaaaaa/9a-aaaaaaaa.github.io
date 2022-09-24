@@ -36,6 +36,9 @@ jobs:
         repository: blog
         # PAT with repository scope (https://github.com/settings/tokens)
         access-token: ${{ secrets.TOKEN }}
+    - run: git add .
+    - run: git commit -m"add blog"
+    - run: git push
   
   
   
