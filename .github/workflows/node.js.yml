@@ -20,9 +20,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
             node-version: 16
-
-      - name: 开始执行脚本
-      - run: |  
+        run: |  
           node -v
           ls -la
           npm install
