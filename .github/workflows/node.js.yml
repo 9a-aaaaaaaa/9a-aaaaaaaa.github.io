@@ -27,7 +27,6 @@ jobs:
         node -v
         ls -la
         npm install
-        zx -v
         chmod +x ./gen.mjs 
         ./gen.mjs 
         
