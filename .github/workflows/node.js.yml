@@ -36,6 +36,8 @@ jobs:
         repository: blog
         # PAT with repository scope (https://github.com/settings/tokens)
         access-token: ${{ secrets.TOKEN }}
+    - run: cd blog   
+    - run: pwd
     - name: Git Commit and Push
       # You may pin to the exact commit or the version.
       # uses: github-actions-x/commit@722d56b8968bf00ced78407bbe2ead81062d8baa
