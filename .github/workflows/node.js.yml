@@ -33,7 +33,7 @@ jobs:
         # Repository Owner
         owner: 9a-aaaaaaaa
         # Repository name
-        repository: https://github.com/9a-aaaaaaaa/blog.git
+        repository: blog
         # PAT with repository scope (https://github.com/settings/tokens)
         access-token: ${{ secrets.TOKEN }}
   
