@@ -21,11 +21,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - run: npm ci
     - run: echo 11111
     - run: git -v
-    
-  
   
     
     - name: Clone Github Repo Action
