@@ -27,6 +27,6 @@ jobs:
         node -v
         ls -la
         cat README.md 
-        ls blog
+        cd blog
         
 
