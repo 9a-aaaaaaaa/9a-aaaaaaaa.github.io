@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/9a-aaaaaaaa/9a.github.io/issues"
   },
-  "homepage": "https://github.com/9a-aaaaaaaa/9a.github.io#readme"
+  "homepage": "https://github.com/9a-aaaaaaaa/9a.github.io#readme",
+  "dependencies": {
+    "zx": "^7.0.8"
+  }
 }

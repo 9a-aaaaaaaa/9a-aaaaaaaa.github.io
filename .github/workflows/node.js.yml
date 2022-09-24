@@ -26,6 +26,7 @@ jobs:
     - run: |  
         node -v
         ls -la
+        npm install
         npm i -g zx
         zx -v
         
