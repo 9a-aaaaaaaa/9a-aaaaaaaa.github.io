@@ -28,5 +28,7 @@ jobs:
         ls -la
         cat README.md 
         cd blog
+        pwd
+        ls
         
 
