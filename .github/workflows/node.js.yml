@@ -15,14 +15,14 @@ jobs:
     steps:
       - name: first step 切换仓库和node 安装
       - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
-        with:
-          node-version: 16
-        run: |  
-          node -v
-          ls -la
-          npm install
-          chmod +x ./gen.mjs 
-          ./gen.mjs 
+      # - uses: actions/setup-node@v3
+      #   with:
+      #     node-version: 16
+      #   run: |  
+      #     node -v
+      #     ls -la
+      #     npm install
+      #     chmod +x ./gen.mjs 
+      #     ./gen.mjs 
         
 
